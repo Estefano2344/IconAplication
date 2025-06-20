@@ -27,13 +27,13 @@ class MainActivity2 : AppCompatActivity() {
             // Corrected syntax for starting a new activity
             // Make sure MainActivity2 exists in your project
             startActivity(Intent(this, MainActivity::class.java))
-            finish()
         }
 
         BtToPantalla3.setOnClickListener {
             // Corrected syntax for starting a new activity
             // Make sure MainActivity2 exists in your project
             startActivity(Intent(this, MainActivity3::class.java))
+            //finish()
         }
 
     }
